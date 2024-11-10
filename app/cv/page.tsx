@@ -44,7 +44,7 @@ export default function Home() {
 
     // Initialize Firebase Analytics
 
-  const [pdflink , setpdflink] = useState(null)
+  const [pdflink , setpdflink] = useState("")
   
   
     const downloadPDF = async () => {
