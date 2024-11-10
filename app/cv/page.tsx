@@ -114,11 +114,11 @@ export default function Home() {
   const toggle = () => {
     setskill(!skill)};
  
-  const data = (e: unknown )=> {
+  const data = (e)=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e : unknown) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
