@@ -22,7 +22,7 @@ export default function Home() {
         <p style={{textShadow: "2px 2px 0 black"}}  className="text-5xl text-blue-600 text-center">Rusume Builder</p><br/>
         <ul  >
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-          >Personal Information
+          {">"}Personal Information
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className=" w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -36,7 +36,7 @@ export default function Home() {
           </ul><br/>
           <ul  >
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-          >Education
+          {">"}Education
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -45,7 +45,7 @@ export default function Home() {
           </ul><br/>
           <ul  >
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-          >Work Experince
+          {">"}Work Experince
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -55,7 +55,7 @@ export default function Home() {
           {skill && (
           <ul  >
           <label style={{textShadow: "1px 1px 0 black"}}  className="text-3xl text-blue-600">
-          >Skills
+          {">"}Skills
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
