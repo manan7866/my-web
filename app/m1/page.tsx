@@ -11,9 +11,7 @@ export default function Home() {
   const [skill , setskill] = useState(false)
   const toggle = () => {
     setskill(!skill)};
-  const handle = () => {
-      setskill(false)
-    }
+ 
   
   return (
     <div style={{background: "linear-gradient(#007cc4 ,#1c0794)"}} className="h-[100vh] w-full ">
