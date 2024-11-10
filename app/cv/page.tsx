@@ -199,7 +199,7 @@ export default function Home() {
           <p style={{ textShadow: "2px 2px 0 black" }} className="text-5xl text-blue-600 text-center">Dynamic Resume Builder</p><br />
 
           <ul className="inline-block">
-            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Personal Information</label>
+            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Personal Information</label>
             <div style={{ textShadow: "1px 1px 0 black" }} className="p-2 mt-4 w-[450px] text-blue-600 border border-blue-600 rounded-[6px]">
               <li className="text-[23px] inline-block">
                 Name: <p className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] mt-0 inline-block rounded-[6px] text-center">{generatedCV.name}</p>
@@ -214,7 +214,7 @@ export default function Home() {
           </ul>
 
           <ul className="inline-block mt-10">
-            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Education</label>
+            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Education</label>
             <div style={{ textShadow: "1px 1px 0 black" }} className="mt-4 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
               <li>
                 <p className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.education}</p>
@@ -223,7 +223,7 @@ export default function Home() {
           </ul><br />
 
           <ul className="inline-block">
-            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Work Experience</label>
+            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Work Experience</label>
             <div style={{ textShadow: "1px 1px 0 black" }} className="mt-4 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
               <li>
                 <p className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.workexp}</p>
@@ -232,7 +232,7 @@ export default function Home() {
           </ul><br />
 
           <ul>
-            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Skills</label>
+            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Skills</label>
             <div style={{ textShadow: "1px 1px 0 black" }} className="mt-4 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
               <li>
                 <p className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.skills}</p>
