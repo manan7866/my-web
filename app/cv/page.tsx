@@ -22,7 +22,7 @@ import { storage, FirebaseProvider } from "@/app/components/firebase"; // Adjust
 export default function Home() {
   interface FormData {
   name: string;
-  contact: number;
+  contact: string;
   email: string;
   education: string;
   workexp: string;
@@ -116,17 +116,17 @@ export default function Home() {
     // }
       };
   const [skill , setskill] = useState(false)
-  const [generatedCV, setGeneratedCV] = useState(null);
+ const [generatedCV, setGeneratedCV] = useState({});
   
-  const [namee ,setName] = useState({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
+  const [namee ,setName] = useState<FormData>({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
   const toggle = () => {
     setskill(!skill)};
  
-  const data = (e : FormData)=> {
+  const data = (e : React.ChangeEvent<HTMLInputElement>)=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e : FormData) => {
+  const handleSubmit = (e : React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
