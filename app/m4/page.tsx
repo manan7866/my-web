@@ -16,11 +16,11 @@ export default function Home() {
   const handle = () => {
       setskill(false)
   }
-  const data = (e: any )=> {
+  const data = (e: unknown )=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e : any) => {
+  const handleSubmit = (e : unknown) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
@@ -35,7 +35,7 @@ export default function Home() {
         
         <ul className="inline-block">
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600 ">
-          >Personal Information
+            {">"}Personal Information
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className=" w-[400px] text-blue-600 border border-blue-600 rounded-[6px]">
             <li className="text-[23px] inline-block">
@@ -52,7 +52,7 @@ export default function Home() {
           
           <ul className=" inline-block mt-10 " >
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-          >Education
+          {">"}Education
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -61,7 +61,7 @@ export default function Home() {
           </ul><br/>
           <ul className=" inline-block " >
           <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-          >Work Experince
+          {">"}Work Experince
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -72,7 +72,7 @@ export default function Home() {
           {skill && (
           <ul className="" >
           <label style={{textShadow: "1px 1px 0 black"}}  className="text-3xl text-blue-600">
-          >Skills
+          {">"}Skills
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
@@ -91,7 +91,7 @@ export default function Home() {
       
           <ul className="inline-block">
          <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600 ">
-         >Personal Information
+         {">"}Personal Information
          </label>
           <div style={{textShadow: "1px 1px 0 black"}} className=" w-[450px] text-blue-600 border border-blue-600 rounded-[6px]">
           <li className="text-[23px] inline-block">
@@ -108,7 +108,7 @@ export default function Home() {
         
         <ul className=" inline-block mt-10 " >
         <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-        >Education
+        {">"}Education
         </label>
         <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
@@ -117,7 +117,7 @@ export default function Home() {
         </ul><br/>
         <ul className=" inline-block " >
         <label style={{textShadow: "1px 1px 0 black"}} className="text-3xl text-blue-600">
-        >Work Experince
+        {">"}Work Experince
         </label>
         <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
@@ -128,7 +128,7 @@ export default function Home() {
         
         <ul className="" >
         <label style={{textShadow: "1px 1px 0 black"}}  className="text-3xl text-blue-600">
-        >Skills
+        {">"}Skills
         </label>
         <div style={{textShadow: "1px 1px 0 black"}} className="w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
