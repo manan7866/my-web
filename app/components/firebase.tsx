@@ -96,7 +96,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Initialize analytics and storage
-let analytics: any;
+let analytics: unknown;
 const storage = getStorage(app); // Directly initialize storage
 
 // Define FirebaseProvider component
