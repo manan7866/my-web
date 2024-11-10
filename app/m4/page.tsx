@@ -8,17 +8,25 @@ import React, { useState } from "react";
 
 
 export default function Home() {
+   interface FormData {
+    name: string;
+    contact: string;
+    email: string;
+    education: string;
+    workexp: string;
+    skills: string;
+  }
   const [skill , setskill] = useState(false)
-  const [generatedCV, setGeneratedCV] = useState(null);
+  const [generatedCV, setGeneratedCV] = useState({});
   const [namee ,setName] = useState({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
   const toggle = () => {
     setskill(!skill)};
  
-  const data = (e: unknown )=> {
+  const data = (e: React.ChangeEvent<HTMLInputElement> )=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e : unknown) => {
+  const handleSubmit = (e : React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
