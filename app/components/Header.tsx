@@ -2,7 +2,7 @@
 
 import { FaChevronDown } from "react-icons/fa";
 import { useState } from "react";
-import React, { useEffect, useRef } from "react"
+
 import { IoIosMenu } from "react-icons/io";
 
 
