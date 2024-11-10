@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import { CiFacebook } from "react-icons/ci"
 import Foot from "@/app/public/Foot.jpeg"
 import { FaInstagram } from "react-icons/fa6";
