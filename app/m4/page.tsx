@@ -1,9 +1,9 @@
 "use client"
 
 
-import Image from "next/image";
+
 import React, { useState } from "react";
-import own from "@/app/public/own.png"
+
 
 
 
@@ -13,9 +13,7 @@ export default function Home() {
   const [namee ,setName] = useState({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
   const toggle = () => {
     setskill(!skill)};
-  const handle = () => {
-      setskill(false)
-  }
+ 
   const data = (e: unknown )=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
