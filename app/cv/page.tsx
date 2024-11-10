@@ -114,11 +114,11 @@ export default function Home() {
   const toggle = () => {
     setskill(!skill)};
  
-  const data = (e: any )=> {
+  const data = (e: unknown )=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e : any) => {
+  const handleSubmit = (e : unknown) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
@@ -132,7 +132,7 @@ export default function Home() {
         <p style={{ textShadow: "2px 2px 0 black" }} className="text-5xl text-blue-600 text-center">Dynamic Resume Builder</p><br />
         
         <ul className="inline-block">
-          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Personal Information</label>
+          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Personal Information</label>
           <div style={{ textShadow: "1px 1px 0 black" }} className="mt-2 w-[400px] text-blue-600 border border-blue-600 rounded-[6px]">
             <li className="text-[23px] inline-block">
               Name: <input placeholder="Name" type="text" name="name" onChange={data} value={namee.name} required className="h-[23px] bg-[rgba(255,255,255,0.7)] ml-4 rounded-[6px] text-center" />
@@ -147,7 +147,7 @@ export default function Home() {
         </ul>
 
         <ul className="inline-block mt-10">
-          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Education</label>
+          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Education</label>
           <div style={{ textShadow: "1px 1px 0 black" }} className="mt-2 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
               <input placeholder="Education" type="text" name="education" value={namee.education} onChange={data} required className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center" />
@@ -156,7 +156,7 @@ export default function Home() {
         </ul><br />
 
         <ul className="inline-block">
-          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Work Experience</label>
+          <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Work Experience</label>
           <div style={{ textShadow: "1px 1px 0 black" }} className="mt-2 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
               <input placeholder="Work experience" type="text" name="workexp" value={namee.workexp} onChange={data} required className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center" />
@@ -166,7 +166,7 @@ export default function Home() {
 
         {skill && (
           <ul>
-            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">>Skills</label>
+            <label style={{ textShadow: "1px 1px 0 black" }} className="text-3xl text-blue-600">{">"}Skills</label>
             <div style={{ textShadow: "1px 1px 0 black" }} className="mt-2 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
               <li>
                 <input placeholder="Skills" type="text" name="skills" value={namee.skills} onChange={data} className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center" />
