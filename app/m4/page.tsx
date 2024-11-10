@@ -18,7 +18,7 @@ export default function Home() {
   }
   const [skill , setskill] = useState(false)
   const [generatedCV, setGeneratedCV] = useState({});
-  const [namee ,setName] = useState({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
+  const [namee ,setName] = useState<FormData>({name:'',contact:'',email :'',education:'',workexp:'',skills:''})
   const toggle = () => {
     setskill(!skill)};
  
