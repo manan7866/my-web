@@ -20,6 +20,14 @@ import { storage, FirebaseProvider } from "@/app/components/firebase"; // Adjust
 
 
 export default function Home() {
+  interface FormData {
+  name: string;
+  contact: number;
+  email: string;
+  education: string;
+  workexp: string;
+  skills: string;
+}
 //   const shortenURL = async (url) => {
 //     const accessToken = '8dfef3b453e86d27091cb9aeb75e23618e6db806'; // Your Bitly API key
 //     const apiUrl = `https://api-ssl.bitly.com/v4/shorten`;
@@ -114,11 +122,11 @@ export default function Home() {
   const toggle = () => {
     setskill(!skill)};
  
-  const data = (e)=> {
+  const data = (e : FormData)=> {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e) => {
+  const handleSubmit = (e : FormData) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
