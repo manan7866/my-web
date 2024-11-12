@@ -26,7 +26,7 @@ export default function Home() {
     setName({...namee, [e.target.name] : e.target.value});
   }
   
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   
     setGeneratedCV(namee);
