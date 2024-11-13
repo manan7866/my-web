@@ -7,7 +7,7 @@ export default function web (){
   return (
      <div style={{backgroundImage: `url(${bg.src}) `,backgroundSize:"cover"}} className="bgr h-[100vh] w-full">
       
-      <div className="content flex items-center justify-center h-[800px] ">
+      <div className="content flex items-center justify-center h-[80vh] ">
         <div className="tbo m-10 relative top-14">
           <p className="text1 text-white text-5xl aminate">Artifacial Inteligence</p>
           <div className="uline h-[1px] w-[550px] bg-white mt-5 "></div>
