@@ -4,6 +4,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import own from "@/app/m1/public/own.png"
+import bg from "@/app/public/bg.jpeg"
 
 
 
