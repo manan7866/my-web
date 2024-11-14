@@ -11,8 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
     },
+    screens:{
+      sms: { max: "540px" },
+    }
   },
   plugins: [],
 };
