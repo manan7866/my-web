@@ -207,9 +207,9 @@ export default function Home() {
         <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl  text-3xl text-blue-600">
         {">"}Personal Information
        </label>
-         <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-[480px] py-3  my-4 text-blue-600 border border-blue-600 rounded-[6px]">
+         <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-[480px]   my-4 text-blue-600 border border-blue-600 rounded-[6px]">
          <li className="text-[23px] sms:text-lg flex ">
-         Name : <p className=" sms:text-xs h-[26px] pb-2  bg-[rgba(255,255,255,0.7)] rounded-[6px]  text-center">{generatedCV.name}</p></li>
+         Name : <p className=" sms:text-xs h-[26px]   bg-[rgba(255,255,255,0.7)] rounded-[6px]  text-center">{generatedCV.name}</p></li>
          <li className="text-[23px] sms:text-lg flex">
            Contact : <p className=" sms:text-xs h-[26px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.contact}</p></li>
            <li className="text-[23px] sms:text-lg flex">
