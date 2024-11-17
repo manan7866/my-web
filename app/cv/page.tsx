@@ -146,7 +146,7 @@ export default function Home() {
       <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl  text-3xl text-blue-600">
         {">"}Personal Information
         </label>
-        <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-60 w-[450px] my-4 text-blue-600 border border-blue-600 rounded-[6px]">
+        <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-[450px] my-4 text-blue-600 border border-blue-600 rounded-[6px]">
           <li className="text-[23px] sms:text-lg inline-block">
           Name : <input placeholder="Name" contentEditable="true" type="text" name="name" onChange={data} value={namee.name}  required className=" sms:text-xs h-[23px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input> </li>
           <li className="text-[23px] sms:text-lg inline-block">
@@ -163,18 +163,18 @@ export default function Home() {
         <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl text-3xl text-blue-600">
         {">"}Education
         </label>
-        <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-60 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
+        <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
-          <input placeholder="Education" type="text" name="education" value={namee.education} onChange={data} required className="sms:text-xs h-8 sms:w-60 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
+          <input placeholder="Education" type="text" name="education" value={namee.education} onChange={data} required className="sms:text-xs h-8 sms:w-64 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
           </div>
         </ul><br/>
         <ul  >
         <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl text-3xl text-blue-600 ">
         {">"}Work Experince
         </label>
-        <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-60 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
+        <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
-          <input placeholder="Work experince" type="text" name="workexp" value={namee.workexp} onChange={data} required  className="h-8 w-[317px] sms:w-60 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
+          <input placeholder="Work experince" type="text" name="workexp" value={namee.workexp} onChange={data} required  className="h-8 w-[317px] sms:w-64 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
           </div>
         </ul><br/>
         
@@ -183,9 +183,9 @@ export default function Home() {
         <label style={{textShadow: "1px 1px 0 black"}}  className="sms:text-2xl text-3xl text-blue-600">
         {">"}Skills
         </label>
-        <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-60 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
+        <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
           <li>
-          <input placeholder="Skills" type="text" name="skills" value={namee.skills} onChange={data} required  className="sms:text-xs h-8 w-[317px] sms:w-60 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input>
+          <input placeholder="Skills" type="text" name="skills" value={namee.skills} onChange={data} required  className="sms:text-xs h-8 w-[317px] sms:w-64 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input>
           {/* <p contentEditable="true"  className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"> java</p> */}
           </li> 
           </div><br/>
@@ -207,7 +207,7 @@ export default function Home() {
         <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl  text-3xl text-blue-600">
         {">"}Personal Information
        </label>
-         <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-60 w-[480px] py-3  my-4 text-blue-600 border border-blue-600 rounded-[6px]">
+         <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-[480px] py-3  my-4 text-blue-600 border border-blue-600 rounded-[6px]">
          <li className="text-[23px] sms:text-lg flex ">
          Name : <p className=" sms:text-xs h-[26px] pb-2  bg-[rgba(255,255,255,0.7)] rounded-[6px]  text-center">{generatedCV.name}</p></li>
          <li className="text-[23px] sms:text-lg flex">
@@ -224,18 +224,18 @@ export default function Home() {
          <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl text-3xl  text-blue-600">
          {">"}Education
          </label>
-         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-60 w-80 my-3 text-blue-600 border border-blue-600 rounded-[6px]">
+         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 w-80 my-3 text-blue-600 border border-blue-600 rounded-[6px]">
            <li>
-           <p className="sms:text-xs h-8 sms:w-60 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.education}</p></li> 
+           <p className="sms:text-xs h-8 sms:w-64 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.education}</p></li> 
            </div>
          </ul><br/>
          <ul className="" >
          <label style={{textShadow: "1px 1px 0 black"}} className="sms:text-2xl text-3xl  text-blue-600 ">
          {">"}Work Experince
          </label>
-         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-60 w-80 my-3 text-blue-600 border border-blue-600 rounded-[6px]">
+         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 w-80 my-3 text-blue-600 border border-blue-600 rounded-[6px]">
            <li>
-           <p className="sms:text-xs h-8 sms:w-60 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.workexp}</p></li> 
+           <p className="sms:text-xs h-8 sms:w-64 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.workexp}</p></li> 
            </div>
          </ul><br/>
         
@@ -244,9 +244,9 @@ export default function Home() {
          <label style={{textShadow: "1px 1px 0 black"}}  className="sms:text-2xl text-3xl  text-blue-600">
          {">"}Skills
          </label>
-         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-60 my-3 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
+         <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 my-3 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
            <li>
-           <p className="sms:text-xs h-8 sms:w-60 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.skills}</p>
+           <p className="sms:text-xs h-8 sms:w-64 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center">{generatedCV.skills}</p>
            
            </li> 
            </div><br/>
