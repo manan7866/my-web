@@ -64,7 +64,7 @@ export default function Home() {
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="sms:text-xs sms:w-64 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
-            <input placeholder="Education" type="text" name="education" value={namee.education} onChange={data} required className="sms:text-xs h-8 sms:w-60 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
+            <input placeholder="Education" type="text" name="education" value={namee.education} onChange={data} required className="sms:text-xs h-8 sms:w-64 w-[317px]  bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input></li> 
             </div>
           </ul><br/>
           <ul  >
@@ -84,7 +84,7 @@ export default function Home() {
           </label>
           <div style={{textShadow: "1px 1px 0 black"}} className="sms:w-64 w-80 text-blue-600 border border-blue-600 rounded-[6px]">
             <li>
-            <input placeholder="Skills" type="text" name="skills" value={namee.skills} onChange={data} required  className="sms:text-xs h-8 w-[317px] sms:w-60 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input>
+            <input placeholder="Skills" type="text" name="skills" value={namee.skills} onChange={data} required  className="sms:text-xs h-8 w-[317px] sms:w-64 bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"></input>
             {/* <p contentEditable="true"  className="h-8 w-[317px] bg-[rgba(255,255,255,0.7)] rounded-[6px] text-center"> java</p> */}
             </li> 
             </div><br/>
